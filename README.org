@@ -28,7 +28,7 @@
 * casm-lang.pkg.flatpak
 
 This repository contains 
-the [[https://flatpak.org][FlatPak]
+the [[https://flatpak.org][FlatPak]]
 package/bundle script, configuration and manifest, 
 which directly uses the pre-build binaries of 
 the current [[https://github.com/casm-lang/casm/releases][CASM release]].
