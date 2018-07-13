@@ -1,0 +1,21 @@
+{ "app-id": "org.casm_lang.casm"
+, "runtime": "org.freedesktop.Platform"
+, "runtime-version": "1.6"
+, "sdk": "org.freedesktop.Sdk"
+, "command": "casmi"
+, "modules":
+  [ { "name": "casm"
+    , "sources":
+      [ { "type": "archive"
+	, "url": "https://github.com/casm-lang/casm/releases/download/0.1.0/casm-linux-x86_64.tar.gz"
+	, "sha256": "6b2dba143753ef3b1e3b42669f4e67baa10a85e95a792f90de79b3a516e552c4"
+        }
+      ]
+    , "buildsystem": "simple"
+    , "build-commands":
+      [ "file bin/*"
+      , "install -D bin/casmi /app/bin/casmi"
+      ]
+    }
+  ]
+}
