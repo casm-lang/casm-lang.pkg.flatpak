@@ -8,7 +8,7 @@
     , "sources":
       [ { "type": "archive"
 	, "url": "https://github.com/casm-lang/casm/releases/download/0.2.0/casm-linux-x86_64.tar.gz"
-	, "sha256": "6b2dba143753ef3b1e3b42669f4e67baa10a85e95a792f90de79b3a516e552c4"
+	, "sha256": "8b7b046a166dcac32d7d6a9552d26d3ecf5e2fbaaf483c3aa0ac7e644f6a606c"
         }
       ]
     , "buildsystem": "simple"
