@@ -7,13 +7,15 @@
   [ { "name": "casm"
     , "sources":
       [ { "type": "archive"
-	, "url": "https://github.com/casm-lang/casm/releases/download/0.2.0/casm-linux-x86_64.tar.gz"
-	, "sha256": "8b7b046a166dcac32d7d6a9552d26d3ecf5e2fbaaf483c3aa0ac7e644f6a606c"
+	, "url": "https://github.com/casm-lang/casm/releases/download/0.3.0/casm-linux-x86_64.tar.gz"
+	, "sha256": "59e2a742eaa5ccd15005652efd7bb7e94b035e29a7ba4e4d89d6abc554f929db"
         }
       ]
     , "buildsystem": "simple"
     , "build-commands":
       [ "file bin/*"
+      , "install -D bin/casmd /app/bin/casmd"
+      , "install -D bin/casmf /app/bin/casmf"
       , "install -D bin/casmi /app/bin/casmi"
       ]
     }
