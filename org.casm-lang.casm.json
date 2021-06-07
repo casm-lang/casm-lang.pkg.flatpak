@@ -7,8 +7,8 @@
   [ { "name": "casm"
     , "sources":
       [ { "type": "archive"
-	, "url": "https://github.com/casm-lang/casm/releases/download/0.5.0/casm-linux-x86_64.tar.gz"
-	, "sha256": "0996d0dcca7ecaef5dae83e7e9f60ac06f1f2dc349765e01bf5671433160d644"
+	, "url": "https://github.com/casm-lang/casm/releases/download/0.6.0/casm-linux-x86_64.tar.gz"
+	, "sha256": "84205e16af98fbc7124ed9f5f1269825e3288b72fb549647c33e025d65538d87"
         }
       ]
     , "buildsystem": "simple"
